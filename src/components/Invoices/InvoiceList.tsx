@@ -24,8 +24,8 @@ const InvoiceList: React.FC = () => {
     
     const isConfigured = supabaseUrl && 
                         supabaseKey && 
-                        supabaseUrl !== 'https://your-supabase-project-url.supabase.co' &&
-                        supabaseKey !== 'your-supabase-anon-key' &&
+                        supabaseUrl !== 'https://scmyucalqoeuqtbthsrx.supabase.co' &&
+                        supabaseKey !== 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InNjbXl1Y2FscW9ldXF0YnRoc3J4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTA0OTQxMDUsImV4cCI6MjA2NjA3MDEwNX0.1S9oeVWsYIEenlvv1thTpQOFSq4O1_LJjQwPg5CAuuQ' &&
                         supabaseUrl.includes('.supabase.co');
     
     setIsSupabaseConfigured(isConfigured);
